@@ -217,9 +217,7 @@ public class InstallUtils {
 
 	private static DruidPlugin createDruidPlugin() {
 		DruidPlugin plugin = mDialect.createDuidPlugin(dbHost, dbName, dbUser, dbPassword);
-
 		plugin.start();
-
 		return plugin;
 	}
 
